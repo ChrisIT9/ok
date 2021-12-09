@@ -1,0 +1,19 @@
+{
+  "name": "test_serial_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-mqtt": "^2.6.1",
+    "serialport": "^9.2.5"
+  },
+  "devDependencies": {
+    "@types/serialport": "^8.0.2"
+  }
+}
